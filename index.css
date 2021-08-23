@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+  }
+  div {
+    text-align: center;
+  }
+  .hero{
+      background-color: var(--secondary-color);
+        color: white;
+        padding: 1rem 1rem;
+    }
+  #app{
+    padding: 1rem;
+  }
+    #inputDate{
+      padding: 1rem;
+        width: 300px;
+        height: 20px;
+    }
+    #subBtn{
+        margin-top: 1rem;
+    }
+  /** **/
+  .container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .container-center{
+    max-width: 600px;
+    margin:auto;
+  
+  }
+  ul{
+    text-align: right;
+    
+    
+  }
+  .item-list-inline{
+    display: inline;
+    padding-right: 1.25rem ;
+    text-align: right;
+  }
+  .navLinks{
+    text-decoration: none;
+    color:var(--primary-color);
+    padding:0.5rem 1rem;
+    color:white
+  }
+  .footer{
+    background-color: var(--secondary-color);
+    padding:0.5rem 1.5rem;
+    text-align: center;
+    color:white;
+    border-top-right-radius:1rem ;
+    margin-top: 2.5rem;
+  
+  }
+  .footer .social-links{
+    padding-inline-start:0px ;
+    text-align: center;
+    padding: 0.5rem;
+  }
+  :root{
+    --primary-color:#1D4ED8;
+    --secondary-color:#60A5FA;
+    --ow-gray:#F3F4F6;
+}  
